@@ -27,6 +27,9 @@ h3 {
   letter-spacing: 2px;
   color: #252525;
 }
+.hidden-heading {
+  display: none;
+}
 /* Header */
 header {
   background-color: #ffffff;
@@ -172,6 +175,16 @@ main {
 }
 #times h3 {
   color: #fafafa;
+}
+/* Gallery page */
+#photos img {
+  width: 100%;
+  /* This will ensure the alt text is readable if the image is missing */
+  line-height: 1em;
+}
+#photos {
+  /* This removes spasing between images */
+  line-height: 0;
 }
 
 /* Footer */
